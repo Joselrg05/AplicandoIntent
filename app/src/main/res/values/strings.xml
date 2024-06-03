@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AplicandoIntent</string>
+    <string name="txtbtn1">Mostrar un Mensaje</string>
+    <string name="txtbtn2">Navegación entre Actividades</string>
+    <string name="txtbtn3">Compartir Contenido</string>
+    <string name="txtbtn4">Realizar una Llamada</string>
+    <string name="txtbtn5">Abrir una Página Web</string>
+    <string name="txt1">Este es el segundo Activity</string>
+    <string name="mostrar_un_mensaje">Mostrar un Mensaje</string>
+    <string name="navegaci_n_entre_actividades">Navegación entre Actividades</string>
+    <string name="compartir_contenido">Compartir Contenido</string>
+    <string name="realizar_una_llamada">Realizar una Llamada</string>
+    <string name="abrir_una_p_gina_web">Abrir una Página Web</string>
+</resources>

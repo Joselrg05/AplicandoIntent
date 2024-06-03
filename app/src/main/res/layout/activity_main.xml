@@ -1,0 +1,76 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- Data Binding variables if needed -->
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@mipmap/logoapp_foreground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoImageView"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/showMessageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mostrar_un_mensaje"
+                android:backgroundTint="@android:color/holo_purple"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/navigateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/navegaci_n_entre_actividades"
+                android:backgroundTint="@android:color/holo_purple"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/shareContentButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/compartir_contenido"
+                android:backgroundTint="@android:color/holo_purple"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/callButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/realizar_una_llamada"
+                android:backgroundTint="@android:color/holo_purple"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/openWebButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abrir_una_p_gina_web"
+                android:backgroundTint="@android:color/holo_purple"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
